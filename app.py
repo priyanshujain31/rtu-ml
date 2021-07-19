@@ -94,4 +94,3 @@ if st.button("About"):
   st.subheader("Developed by Priyanshu Jain")
   st.subheader("C-Section , PIET")
 
-st.markdown(html_temp,unsafe_allow_html=True)
