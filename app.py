@@ -93,13 +93,5 @@ if st.button("Tweet Analysis"):
 if st.button("About"):
   st.subheader("Developed by Priyanshu Jain")
   st.subheader("C-Section , PIET")
-html_temp = """
-   <div class="" style="background-color:orange;" >
-   <div class="clearfix">           
-   <div class="col-md-12">
-   
-   </div>
-   </div>
-   </div>
-   """
+
 st.markdown(html_temp,unsafe_allow_html=True)
