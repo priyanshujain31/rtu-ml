@@ -10,7 +10,7 @@ model = pickle.load(open('pjnlp.pkl','rb'))
 
 
 def review(text):
-  dataset = pd.read_csv('NLP dataset11.csv',nrows=1000)
+  dataset = pd.read_csv('NLP dataset11.csv')
   # First step: cleaning Text and removing number and punctuation marks.
   # Cleaning the texts for all review using for loop
   import re
